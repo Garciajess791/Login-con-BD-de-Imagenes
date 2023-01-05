@@ -100,7 +100,7 @@ $datos = CargarDatos($con);
                                 if(isset($datos)){
                                     foreach($datos as $foto){
                                         if(!empty($foto)){
-                                            echo '<option value="'.$foto['rowid'].'">'.$foto['nombre'].''.$foto['alt'].'</option>';
+                                            echo '<option value="'.$foto['rowid'].'">'.$foto['nombre'].'</option>';
                                         }   
                                     }
                                 }
