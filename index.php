@@ -58,6 +58,11 @@ $datos = CargarDatos($con);
     img {
       height: 500px;
     }
+    
+    .bg-image{
+        background-size: cover;
+        background-position: center;
+    }
 
 </style>
 <section class="intro">
