@@ -57,6 +57,7 @@ $datos = CargarDatos($con);
     }
     img {
       height: 500px;
+      width: auto;
     }
     
     .bg-image{
